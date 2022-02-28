@@ -93,12 +93,14 @@ section .title::after{
 .navbar .max-width{
     display: flex;
     align-items: center;
+    margin-left: 250px;
     justify-content: space-between;
 }
 .navbar .logo a{
     color: black;
     font-size: 35px;
     font-weight: 600;
+    margin-left: 0%;
 }
 .navbar .logo a span{
     color: crimson;
@@ -113,7 +115,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -124,6 +126,9 @@ section .title::after{
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
+}
+.portfoio{
+    margin-left: -580px;
 }
 
 /* menu btn styling */
@@ -165,7 +170,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/walpaper.jpg") no-repeat center;
+    background: url("images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -183,18 +188,18 @@ section .title::after{
 
 .home .home-content .text-1{
     font-size: 27px;
-    color: black;
+    color: #fff;
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-    color: black;
+    color: #fff;
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
-    color: black;
+    color: #fff;
 }
 .home .home-content .text-3 span{
     color: crimson;
@@ -372,7 +377,7 @@ section .title::after{
     width: calc(33% - 20px);
     background: red;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 5px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -642,4 +647,3 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-}
