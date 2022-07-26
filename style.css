@@ -228,12 +228,15 @@ section .title::after{
 }
 .about .about-content .left{
     width: 45%;
+    margin-top: 40px;
 }
 .about .about-content .left img{
-    height: 400px;
+    height: 300px;
     width: 400px;
-    object-fit: cover;
+    object-fit:cover;
+    margin-top: -105pt;
     border-radius: 6px;
+    border-color: rgb(7, 5, 6);
 }
 .about .about-content .right{
     width: 55%;
@@ -251,7 +254,7 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background:black;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
